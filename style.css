@@ -14,10 +14,10 @@
 }
 
 * body {
-    background-color: #BEDC74
+    background-color: #FFFFFF
 }
 .footer {
-    background-color: #387F39;
+    background-color: #157F1F;
     padding: 1%;
     display: flex;
 }
@@ -63,12 +63,15 @@
     padding: 1%;
     background-color: #387F39;
     margin-bottom: 3%;
+    margin: 2%;
 }
 
 .iframe-container {
     position: relative;
     overflow: hidden;
     margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     padding-top: 56.25%; /* Proporção de 16:9 (altere conforme necessário) */
 }
 .iframe-container iframe {
