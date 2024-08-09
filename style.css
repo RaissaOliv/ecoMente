@@ -32,10 +32,13 @@
 }
 .title {
     margin-left: 2%;
+    margin: 2%;
+    text-align: center;
 }
 
 .subtitle {
     margin-bottom: 2%;
+    margin: 2%;
     font-family: "Josefin Sans", sans-serif;
 }
 
@@ -96,6 +99,7 @@
     align-self: center;
     text-align: center;
     margin: 1%;
+    flex: 1;
 }
 @media only screen and (max-width: 600px) {
     .iframe-container iframe {
@@ -106,5 +110,13 @@
         height: 100%;
         margin-top: 2%;
         margin-bottom: 2%;
+    }
+    
+    .cube_div {
+        flex-direction: column;
+        display: flex;
+    }
+    .cube_data {
+        flex: 1;
     }
 }
